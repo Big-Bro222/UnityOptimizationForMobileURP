@@ -2,15 +2,22 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Grass_1
   m_Shader: {fileID: 4800000, guid: 1d10d370c3f169448b4d855d9b93645f, type: 3}
-  m_ShaderKeywords: _ANCHORTHEFOLIAGEBASE_ON _COLOR2ENABLE_ON _ENABLEHIGHLIGHTING1_ON
-    _ENABLEWIND_ON _SECONDCOLOROVERLAYTYPE_WORLD_POSITION _UVWIND_ON _VISUALWINDENABLE_ON
+  m_ValidKeywords:
+  - _ANCHORTHEFOLIAGEBASE_ON
+  - _COLOR2ENABLE_ON
+  - _ENABLEWIND_ON
+  - _SECONDCOLOROVERLAYTYPE_WORLD_POSITION
+  m_InvalidKeywords:
+  - _ENABLEHIGHLIGHTING1_ON
+  - _UVWIND_ON
+  - _VISUALWINDENABLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -80,6 +87,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.3
     - _Anchorthefoliagebase: 1
@@ -157,3 +165,4 @@ Material:
     - _MainColor: {r: 0.052941192, g: 0.5294118, b: 0.25767466, a: 0}
     - _SecondColor: {r: 0.33913046, g: 0.6, b: 0.12, a: 0}
     - _SpecularColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+  m_BuildTextureStacks: []
